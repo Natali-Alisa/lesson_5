@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,700&family=Square+Peg&display=swap');
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Thin.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Thin.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;  
+}  
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-ThinItalic.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-ThinItalic.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;  
+}  
+
+body {
+    font-family:"Arimo", sans-serif ;
+    font-size: 20px;
+}
+
+
+h2 {
+    font-family: "Montserrat"; 
+    font-size: 35px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(141, 40, 4);
+    text-shadow: 2px 1px 2px rgb(165, 162, 3);;
+} 
+
+.start {
+    text-transform: lowercase;
+}
+
+.enot, .hedgehog, .work, .footer {
+    margin:  20px 20px 30px 20px;
+    padding: 10px 20px;
+}
+
+
+.footer {
+    font-family:"Montserrat", sans-serif ;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: oblique;
+    color: rgb(58, 32, 12);
+    text-align: center;
+    text-transform: uppercase;
+}
+.title-1 {
+    font-size: 30px;
+    color: rgb(121, 51, 1);
+    text-shadow: 2px 1px 2px rgb(97, 48, 7);
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.one * {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.two ~ p {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.work .kazka {
+    color: rgb(100, 5, 5);
+    font-style: italic;
+}
+
+.kazka {
+    line-height: 30px;
+}
+.text {
+    text-decoration: underline;
+    color: rgb(117, 4, 4);
+    font-weight: 900;
+}
+#title-3, #title-2 {
+    color: cadetblue;
+    padding-bottom: 20px;
+}
+.hedgehog .lesson {
+    color: rgb(70, 4, 4);
+}
+h3 {
+    text-decoration: overline;
+}
+.lesson1 + p {
+    color: rgb(32, 31, 87);
+}
+.lesson3 + p {
+    color: rgb(43, 14, 97);
+}
